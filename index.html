@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      
+    <title>Mi página web</title>
+  </head>
+  <body>
+    <header>
+        <link rel="stylesheet" href="style.css">
+        <div class="social-icons">
+            <div class="icon"><a href="#"><<i class='bx bx-crown'></i></></a></div>
+            <div class="container" >
+                <div class="section">
+                    <button class="btn blue" id="dolar">Dolar</button>
+                </div>
+                <div class="section">
+                    <ul id="resultado"></ul>
+                </div>
+            </div>
+
+        </div>
+      <nav>
+        <ul>
+          <li><a href="#inicio"> Inicio</a></li>
+          <li><a href="#quienes-somos">Quiénes somos</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contactos">Contactos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Aquí iría el contenido de la página -->
+    </main>
+    <section class="hero">
+        <h1>Bienvenidos a nuestra página web</h1>
+        <p>Somos una empresa dedicada a ofrecer servicios de alta calidad para mejorar la vida de nuestros clientes. Nuestros productos incluyen soluciones de software, hardware y consultoría.</p>
+        <a href="contacto.html" class="cta">Contáctanos</a>
+      </section>
+      <section class="categorias">
+        <h2>Categorías</h2>
+        <ul>
+          <li><a href="diseno-web.html">promociones </a></li>
+          <li><a href="desarrollo-web.html">liquidaciones</a></li>
+          <li><a href="desarrollo-de-apps.html"> Nuevas tendencias</a></li>
+          <li><a href="desarrollo-de-wordpress.html">Moda y belleza</a></li>
+          <li><a href="marketing-digital.html">cambios y devoluciones</a></li>
+        </ul>
+      </section>
+      <section class="formulario de contacto">
+        <h2>formulario de Contactos</h2>
+      <form action="#" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <input type="submit" value="Enviar">
+      </form>
+      </section>
+
+      <section class="galeria">
+        <h2>Galería</h2>
+        <div class="grid-container">
+          <div class="grid-item">
+            <a href="articulo1.html">
+              <img src="imagenes/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="Artículo 1">
+              <h3>Notebook</h3>
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="articulo2.html">
+              <img src="imagenes/clark-street-mercantile-P3pI6xzovu0-unsplash.jpg" alt="Artículo 2">
+              <h3>indumentaria</h3>
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="articulo3.html">
+              <img src="imagenes/jeroen-van-roij-sLQt9PjsCcs-unsplash.jpg" alt="Artículo 3">
+              <h3>Perfumes</h3>
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="articulo4.html">
+              <img src="imagenes/ns-37rVmK3jY-c-unsplash.jpg" alt="Artículo 4">
+              <h3>Ropa Estilo Urbano</h3>
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="articulo5.html">
+              <img src="imagenes/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg" alt="Artículo 5">
+              <h3>Zapatillas</h3>
+            </a>
+          </div>
+          <div class="grid-item">
+            <a href="articulo6.html">
+              <img src="imagenes/shiwa-id-Uae7ouMw91A-unsplash.jpg" alt="Artículo 6">
+              <h3>Celulares</h3>
+        </div>
+        </div>
+        <section class="formulario de reclamos ">
+            <h2> formulario de reclamos</h2>
+
+        <form id="complaint-form">
+            <div class="form-group">
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Teléfono:</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+              <label for="complaint">Reclamo:</label>
+              <textarea id="complaint" name="complaint" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+            <dt class="required">
+              <label for="abuse_report_language">Select language (required)</label>
+            </dt>
+            <dd class="required">
+              <select name="abuse_report[language]" id="abuse_report_language"><option value="Afrikaans">Afrikaans</option>
+      <option value="العربية">العربية</option>
+      <option value="Bahasa Indonesia">Bahasa Indonesia</option>
+      <option value="Bahasa Malaysia">Bahasa Malaysia</option>
+      <option value="Български">Български</option>
+      <option value="বাংলা">বাংলা</option>
+      <option value="Català">Català</option>
+      <option value="Čeština">Čeština</option>
+      <option value="Cymraeg">Cymraeg</option>
+      <option value="Dansk">Dansk</option>
+      <option value="Deutsch">Deutsch</option>
+      <option value="eesti keel">eesti keel</option>
+      <option value="Ελληνικά">Ελληνικά</option>
+      <option selected="selected" value="English">English</option>
+      <option value="Español">Español</option>
+      <option value="فارسی">فارسی</option>
+      <option value="Filipino">Filipino</option>
+      <option value="Français">Français</option>
+      <option value="한국어">한국어</option>
+      <option value="हिन्दी">हिन्दी</option>
+      <option value="Hrvatski">Hrvatski</option>
+      <option value="Italiano">Italiano</option>
+      <option value="עברית">עברית</option>
+      <option value="Lietuvių kalba">Lietuvių kalba</option>
+      <option value="Magyar">Magyar</option>
+      <option value="македонски">македонски</option>
+      <option value="मराठी">मराठी</option>
+      <option value="Nederlands">Nederlands</option>
+      <option value="日本語">日本語</option>
+      <option value="Norsk">Norsk</option>
+      <option value="Polski">Polski</option>
+      <option value="Português brasileiro">Português brasileiro</option>
+      <option value="Português europeu">Português europeu</option>
+      <option value="Română">Română</option>
+      <option value="Русский">Русский</option>
+      <option value="Slovenščina">Slovenščina</option>
+      <option value="Српски">Српски</option>
+      <option value="Svenska">Svenska</option>
+      <option value="ไทย">ไทย</option>
+      <option value="Tiếng Việt">Tiếng Việt</option>
+      <option value="Türkçe">Türkçe</option>
+      <option value="Українська">Українська</option>
+      <option value="中文-普通话 國語">中文-普通话 國語</option></select>
+      </section>
+           
+          
+        
+          
+          
+      </section>
+      
+      
+      <!-- Aquí irían más secciones y contenido -->
+    </main>
+    <script src="./main.js"></script>
+  </body>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col-1">
+        <h3>Nombre de la Empresa</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, id? Quis quam, aperiam ipsam iusto veritatis ipsum necessitatibus obcaecati eos suscipit distinctio in fugit aliquid at esse, dolores id totam?</p>
+      </div>
+      <div class="footer-col-2">
+        <h3>Servicios</h3>
+        <ul>
+          <li><a href="#">promociones</a></li>
+          <li><a href="#">liquidaciones</a></li>
+          <li><a href="#">Nuevas tendencias </a></li>
+          <li><a href="#">Moda y belleza</a></li>
+          <li><a href="#">Cambios y devoluciones </a></li>
+        </ul>
+      </div>
+      <div class="footer-col-3">
+        <h3>Artículos</h3>
+        <ul>
+          <li><a href="#">notebook</a></li>
+          <li><a href="#">indumentaria</a></li>
+          <li><a href="#"></a>Perfumes</li>
+          <li><a href="#">Ropa Estilo Urbano</a></li>
+          <li><a href="#">Zapatllas</a></li>
+          <li><a href="#">Celulares</a></li>
+
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Redes Sociales</h3>
+        <div class="social-icons">
+          <div class="icon"><a href="#"><i class='bx bxl-facebook-circle'></i></a></div>
+          <div class="icon"><a href="#"><i class='bx bxl-instagram'></i></a></div>
+          <div class="icon"><a href="#"><i class='bx bxl-twitter' ></i></a></div>
+          <div class="icon"><a href="#"><i class='bx bxl-linkedin' ></i></a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
