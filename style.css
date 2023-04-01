@@ -55,7 +55,7 @@ body {
     margin: 0;
   }
   .hero {
-    background-image: url("imagenes/jeroen-van-roij-sLQt9PjsCcs-unsplash.jpg");
+    background-image: url("/proyecto-final/imagenes/cuchillos\(3\).jpg");
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.7);
@@ -65,13 +65,22 @@ body {
   }
   
   .hero h1 {
-    font-size: 48px;
+    font-size: 70px;
     margin-top: 0;
+    line-height: 10%;
+  }
+
+  .hero h4 {
+    font-size: 20px;
+    line-height: 160%;
+    color: #0092cb;
   }
   
   .hero p {
     font-size: 24px;
-    margin-bottom: 30px;
+    color: #2e58e2;
+    margin-bottom: 60px;
+    line-height: 90%;
   }
   
   .cta {
