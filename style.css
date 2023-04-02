@@ -55,7 +55,7 @@ body {
     margin: 0;
   }
   .hero {
-    background-image: url("/proyecto-final/imagenes/cuchillos\(3\).jpg");
+    background-image: url("/proyecto-final/imagenes/Portada.jpg");
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.7);
@@ -78,7 +78,7 @@ body {
   
   .hero p {
     font-size: 24px;
-    color: #2e58e2;
+    color: #c1c1d4;
     margin-bottom: 60px;
     line-height: 90%;
   }
@@ -148,7 +148,7 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
   gap: 20px;
   justify-content: center;
 }
